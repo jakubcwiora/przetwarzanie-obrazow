@@ -8,6 +8,6 @@ M = np.float32([[1, 0, tx], [0, 1, ty]])
 
 translated_image = cv2.warpAffine(image, M, (image.shape[1], image.shape[0]))
 
-cv2.imshow("Przesunięty obraz", translated_image)
+cv2.imshow("Translated (Moved) Image", translated_image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
