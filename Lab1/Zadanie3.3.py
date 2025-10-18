@@ -1,6 +1,6 @@
 import cv2
 
-FILENAME = 'mogger.jpg'
+FILENAME = 'Lab1/mogger.jpg'
 
 image = cv2.imread(FILENAME)
 
