@@ -1,10 +1,10 @@
 import cv2
 
 FILENAMES = [
-  ('kopia.jpg', 'JPG'), 
-  ('sample1.bmp', 'BMP'), 
-  ('blackpill.png', 'PNG'), 
-  ('chico.gif', 'GIF')
+  ('Lab1/kopia.jpg', 'JPG'), 
+  ('Lab1/sample1.bmp', 'BMP'), 
+  ('Lab1/blackpill.png', 'PNG'), 
+  ('Lab1/chico.gif', 'GIF')
   ]
 
 for name in FILENAMES:
@@ -12,3 +12,4 @@ for name in FILENAMES:
   cv2.imshow(f"Obraz {name[1]}", image)
   cv2.waitKey(0)
   cv2.destroyAllWindows()
+  

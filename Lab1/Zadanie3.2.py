@@ -1,7 +1,7 @@
 import cv2
 
-FILENAME = 'mogger.jpg'
+FILENAME = 'Lab1/mogger.jpg'
 
-image = cv2.imread(FILENAME, 0)
+image = cv2.imread(FILENAME)
 
 cv2.imwrite('kopia.jpg', image)
