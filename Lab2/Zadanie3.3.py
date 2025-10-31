@@ -20,3 +20,11 @@ def rotateImage():
     rotateImage()
 
 rotateImage()
+
+# Bufor 512 słow
+# obsłga przetwornika cyfrowo analogowego DMA
+
+# obsługa przerwan od polowy i konca bufora
+# czestotliwosc problkowania 8kHz
+# z każdych 256 probek policzyc DFT
+# oraz umożliwić odczyt amplitud dla poszczegolnych prążkow
