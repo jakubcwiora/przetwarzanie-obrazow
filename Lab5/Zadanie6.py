@@ -3,7 +3,7 @@ import cv2
 import os
 import numpy as np
 
-IMAGE_PATH = "input.jpg"
+IMAGE_PATH = "./Lab5/input.jpg"
 
 
 def salt_and_pepper(image, amount=0.02, s_vs_p=0.5):

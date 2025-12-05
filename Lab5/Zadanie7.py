@@ -3,7 +3,7 @@ import cv2
 import os
 import numpy as np
 
-IMAGE_PATH = "./LAB5/input.jpg"
+IMAGE_PATH = "./Lab5/input.jpg"
 
 
 def gaussian_noise(image, mean=0, sigma=15):
